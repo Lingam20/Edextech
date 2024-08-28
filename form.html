@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">HT
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The American College Admission Form </title>
+    <link rel="icon" href=>
+</head>
+<body><center>
+    <h1>The American College Admission Form</h1>
+</center>
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required>
+            <br><br>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select...</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <br><br>
+
+            <label for="nationality">Nationality:</label>
+            <input type="text" id="nationality" name="nationality" required>
+        </fieldset>
+        <br>
+        
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <br><br>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+        </fieldset>
+        <br>
+        
+        <fieldset>
+            <legend>Academic Information</legend>
+
+            <label for="high-school">High School Name:</label>
+            <input type="text" id="high-school" name="high-school" required>
+            <br><br>
+
+            <label for="graduation-year">Year of Graduation:</label>
+            <input type="number" id="graduation-year" name="graduation-year" min="1900" max="2099" required>
+            <br><br>         
+            <label for="myfile"> Upload Mark sheet:</label>
+            <input type="file" id="myfile" name="myfile">
+            <br><br>
+            <input type="submit">
+            <br><br>
+
+            <label for="gpa">GPA:</label>
+            <input type="text" id="gpa" name="gpa" required>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Additional Information</legend>
+
+            <label for="extra-curricular">Extra-Curricular Activities:</label>
+            <textarea id="extra-curricular" name="extra-curricular" rows="4"></textarea>
+            <br><br>
+
+            <label for="essay">Personal Statement (Essay):</label>
+            <textarea id="essay" name="essay" rows="6" required></textarea>
+        </fieldset>
+        <br>
+        <fieldset>
+<legend>college contact </legend>  
+<p>Email- americancollege@gmail.com
+          <p>+91 5678998765
+          </p>
+        </fieldset>
+
+        <button type="submit">Submit Application</button>
+    </form>
+</body>
+</html>
